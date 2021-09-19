@@ -1,0 +1,50 @@
+@font-face{
+	font-family: stick;
+	src:local('Stick-Regular'), url(../libs/fonts/stick/Stick-Regular.ttf) format('woff');}
+
+body{
+	background-image:url(../img/cover/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h2{
+	color:white;
+	text-align:center;
+	text-shadow:-4px -4px 3px black;
+}
+
+.div1{
+	width: 350px;
+	height: 350px;
+	border:1px;
+	border-style: dotted;
+	border-color: white;
+	color:white;
+
+}
+
+.div2{
+	text-align:justify;
+	letter-spacing: 1px;
+}
+
+a{
+	color: yellow;
+}
+
+.textshadow{
+	text-shadow:-3px -3px 2px black;
+}
+
+.fonts{
+	color: yellow;
+	height: 500px;
+	
+}
+
+.color{
+	font-family: stick;
+	font-size: 13px;
+}
+

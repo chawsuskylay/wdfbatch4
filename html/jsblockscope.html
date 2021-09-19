@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Block Scope</title>
+    </head>
+    <body>
+
+
+
+        <script type="text/javascript">
+            // Global Scope (can call anywhere/ wherever)
+            var a = 1;
+            let b = 2;
+            const c = 3;
+
+            console.log('Global Scope = ' ,a, b, c);
+
+
+            // Function Scope (*noted that the variable in function scope can't call/use from outside of it. Only global scope can call and use from anywhere.)
+
+            function test(){
+                //console.log(a,b,c); //global scope variable can call in functionn scope
+                
+
+                // let x = 100;
+                // console.log(x);
+
+                var a = 4;
+                let b = 5;
+                const c = 6;
+
+                console.log('Function Scope = ' ,a,b,c);
+            }
+
+            test();
+
+            // console.log(x); //function scope variable can't call in global scope
+            console.log('Global Scope ' ,a,b,c);
+
+
+            // If Scope (Block Scope)
+
+            // if(true){
+
+            //     var a = 7;
+            //     let b = 8;
+            //     const c = 9;
+
+            //     console.log('If Scope = ',a,b,c);
+
+            // }
+
+            // console.log('Global Scope = ',a,b,c);
+
+
+
+            // Loop Scope ( Block Scope )
+            
+            for(var a=0;a<10;a++){
+                // console.log("Loop = " + a);
+            }
+
+            for(let b=0;b<10;b++){
+                console.log("Loop = " + b);
+            }
+
+            // for(const c=0;c<10;c++){
+            //     console.log("Loop = " + c);
+            // } *const is constant variable. So, it can't use in this situation.
+
+
+            console.log('Global Scope = ',a,b,c);
+
+
+
+
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,143 @@
+
+.divtop{
+	width: 100%;
+	height:100px;
+
+	background-image:url(../img/profile/download.jpg);
+	background-repeat: repeat-x;
+
+}
+
+.divtop h1, .divtop p{
+	color: white;
+	text-align: center;
+	text-shadow: -2px -2px 3px black;
+}
+
+.div1,.div2,.div4,.div5,.div6{
+	width: 300px;
+	height: 30px;
+
+	background-color: green;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	color: white;
+	margin-bottom: 10px;
+
+}
+
+
+.div3{
+	width: 300px;
+	height: 250px;
+	background-color: green;
+	margin-bottom: 10px;
+
+	
+}
+
+.div3 .input{
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-right: 60px;
+
+}
+
+.div3 .para{
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.divleft{
+	width: 300px;
+	height: 500px;
+	
+
+	float: left;
+}
+
+.divright{
+	width:1500px;
+	height: 500px;
+}
+
+.divright span{
+
+	display: inline;
+
+	float: left;
+}
+
+.p1,.p2,.p3,.p4{
+	width: 250px;
+	height: 250px;
+	
+	background-color: orange;
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	margin-top: 30px;
+	margin:15px;
+
+	float: left;
+}
+
+.p1{
+	margin-left: 40px;
+}
+
+.p1 img, .p2 img, .p3 img, .p4 img{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+
+	margin-top:10px;
+	margin-left: 85px;
+
+
+}
+
+.p1 p, .p2 p, .p3 p, .p4 p{
+	color:white;
+	text-transform: capitalize;
+
+	margin-left: 25px;
+
+}
+
+
+.divright .p5{
+	width: 1100px;
+	height: 100px;
+	margin-left: 50px;
+	border-top: 1px solid gray;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	float: left;
+
+
+	text-transform: capitalize;
+	text-align: justify;
+
+	/*word-spacing: 2px;*/
+	float: left;
+	position: absolute;
+	top:520px;
+	left: 300px;
+	bottom: 10px;
+	z-index: -1;
+
+
+}
+
+
+
+.divbottom{
+	width: 100%;
+	height: 150px;
+
+	background-image:url(../img/profile/footer.jpg);
+	background-repeat: repeat-x;
+	
+
+}

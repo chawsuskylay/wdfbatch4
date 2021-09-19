@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Looping</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		//1.for loop
+		// for(statement1 start; ststement2 end; ststement3 inc/dec){
+		// 	code to executed
+		// }
+
+		// let i = 0;
+
+		// for(let i = 0; i < 10; i++){
+		// 	console.log("Number = " + i);
+		// }
+
+		// console.log('i value is ' + i);
+
+
+		// 2. For In Loop
+		// for(key in arrayobj){
+		// 	code to executed
+		// }
+
+		let students = {
+			name: "Aung Aung",
+			address : "Mandalay",
+			parent: "U Ba"
+		};
+
+		// console.log(students.parent);
+
+		// for(key in students){
+		// 	document.write(key + "is " + students[key] + "<br/>");
+		// }
+
+		// let myarrs = ["red","green","black","gray","blue","pink"];
+		// console.log(myarrs[3]);
+
+		// for(key in myarrs){
+		// 	document.write(key + "is " + myarrs[key] + "<br/>");
+		// }
+
+		// 3.While loop
+		// start
+		// while(end){
+		// 	before print ++ --
+		// 	code to executed
+		// 	after print ++ --
+		// }
+
+		// let b = 0;
+
+		// while(b <= 10){
+
+		// 	console.log("B value is = " + b);
+		// 	b++;
+		// }
+
+		// console.log("b = " + b);
+
+		// let c = 0;
+
+		// while(c < 10){
+		// 	c++;
+		// 	console.log("C value is " + c);
+		// }
+
+		// console.log("c = " + c);
+
+		// let l = 0;
+
+		// while(l < myarrs.length){
+
+		// 	document.write("color is " + myarrs[l] + "<br/>");
+
+		// 	l++;
+		// }
+
+
+		// 4. Do While Loop
+		// start
+		// do{
+		// 	before print ++ --
+		// 	code to executed
+		// 	after print ++ --
+		// }while(end);
+
+
+		// let n = 0;
+
+		// // do{
+		// // 	console.log('N value is ' + n);
+		// // 	n++;
+
+		// // }while(n < 10);
+
+		// do{
+
+		// 	n++;
+		// 	console.log('N value is ' + n);
+
+		// }while(n < 10);
+
+		// console.log("n = " + n);
+
+		// let p = 0;
+
+		// do{
+		// 	document.write('My fav color is = ' + myarrs[p] + "<br/>");
+		// 	p++;
+		// }while(p < myarrs.length);
+
+
+		// 5.forEach Loop
+
+		let myarrs = ["red","green","black","gray","blue","pink"];
+
+		
+								// (value,index,Array)
+		myarrs.forEach(function(myarr,idx,arr){
+
+			console.log(arr);
+
+			document.write("index number is " + idx + "value is " + myarr + " color" + "<br/>");
+
+		});
+
+
+		// 6. map (is equal with forEach Loop)
+
+		const users = [
+			{id:1 , name: 'Aung Aung'},
+			{id:2 , name: 'Maung Maung'},
+			{id:3 , name: "Naung Naung"}
+		];
+
+
+		const ids = users.map(function(user){
+			return user.id;
+
+		});
+
+		console.log(ids);
+
+		const names = users.map(function(user){
+			return user.name;
+
+		})
+
+		console.log(names);
+
+
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Statement</title>
+</head>
+<body>
+
+
+
+	<script type="text/javascript">
+
+		// Ternary Operator (?)
+		// num1 > num2 ? true : false
+
+		const x = 100;
+		const y = 200;
+		console.log(y > x ? "Yes it is true" : "No it is false");
+
+		const num1 = 4;
+		const num2 = 2;
+
+		// check value
+		document.write("equal to (==) result =" + (num1 == num2 ? "True" : "False") + "<br/>");
+		// check value/ data type
+		document.write("equal to (===) result =" + (num1 === num2 ? "True" : "False") + "<br/>");
+
+		// check value
+		document.write("not equal to (!=) result =" + (num1 != num2 ? "True" : "False") + "<br/>");
+		// check value/ data type
+		document.write("not equal to (!==) result =" + (num1 !== num2 ? "True" : "False") + "<br/>");
+
+		document.write("greater than (>) result =" + (num1 > num2 ? "True" : "False") + "<br/>");
+		document.write("less than (<) result =" + (num1 < num2 ? "True" : "False") + "<br/>");
+
+		document.write("greater than or equal to (>=) result =" + (num1 >= num2 ? "True" : "False") + "<br/>");
+
+		document.write("less than or equal to (<=) result =" + (num1 <= num2 ? "True" : "False") + "<br/>");
+
+
+		// if Statement
+		// 	if(condition){
+		// 		codes
+		// 	}
+		const id = 30;
+
+		// if(id == 50){
+		// 	console.log("Correct");
+		// }
+
+		if(id == "30"){
+			console.log("Correct");
+		}else{
+			console.log("incorrect");
+		}
+
+		 // const j = 40;
+		 // const k = 20;
+
+		 // if (j>k){
+
+		 // }
+
+		const color ="white";
+
+		switch(color){
+			case"black":
+			console.log("My fav color is not black");
+			break;
+			case"pink":
+			console.log("My fav color is not black");
+			break;
+			case"red":
+			console.log("i hate red color");
+			break;
+			case"white":
+			console.log("Correct, My fav color is White");
+			break;
+			default:
+			console.log("Try Again");
+			break;
+		}
+
+		let daycount = new Date().getDay();
+		
+		let today;
+
+		switch(daycount){
+			case 0:
+			today = "Sunday";
+			break;
+			case 1:
+			today = "Monday";
+			break;
+			case 2:
+			today = "Tuesday";
+			break;
+			case 3:
+			today = "Wednesday";
+			break;
+			case 4:
+			today = "Thursday";
+			break;
+			case 5:
+			today = "Friday";
+			break;
+			default:
+			today = "Saturday";
+			break;
+		}
+
+		document.write("Today is " + today);
+
+
+		let p = 10;
+		let q = 50;
+
+		console.log(p);
+
+		// p = q;
+		// console.log(p);
+		
+		// q = p + q;
+		// console.log(q);
+
+		// q += p;
+		// console.log(q);
+
+		// p += q;
+		// console.log(p);
+
+		// q -= p;
+		// console.log(q);
+
+		// q *= p;
+		// console.log(q);
+
+		// q = q/p;
+		// console.log(q);
+
+		// q /= p;
+		// console.log(q);
+
+		// q %= p;
+		// console.log(q);
+
+		// const username = prompt("Enter Username");
+		// const password = prompt("Enter Password");
+
+		// if(username === "aungaung" && password === "123456"){
+		// 	console.log("Welcome");
+		// }else{
+		// 	console.log("Try Again");
+		// }
+
+		const username = prompt("Enter Username");
+		const password = prompt("Enter Password");
+
+		if(username === "aungaung" || password === "123456"){
+			console.log("Welcome");
+		}else{
+			console.log("Try Again");
+		}
+		
+	</script>
+
+</body>
+</html>
+
+<!-- Assignment Operators(6)
+= Assign
++=
+-=
+*=
+/=
+%= -->
+
+<!-- Logical Operators(3)
+and &&
+or ||
+not ? -->

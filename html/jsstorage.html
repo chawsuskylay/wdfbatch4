@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Storage</title>
+</head>
+<body>
+
+
+
+
+
+<script type="text/javascript">
+	// console.log('hay');
+
+
+	// Local Storage
+	// Storage
+	// localStorage.setItem('name','maung maung');
+	// localStorage.setItem('age','27');
+	// localStorage.setItem('city','Mandalay');
+
+
+
+	// Update
+	// Method1
+	// localStorage.setItem('name','kyaw kyaw');
+	// Method2
+	// localStorage.name = "Mya Mya";
+
+
+	// Get Data from Local Storage
+	const getname = localStorage.getItem('name');
+	const getage = localStorage.getItem('age');
+	const getcity = localStorage.getItem('city');
+
+
+	document.write(getname);
+	document.write('<br/>');
+	document.write(getage);
+	document.write('<br/>');
+	document.write(getcity);
+	document.write('<br/>');
+
+
+	// Destroy
+	// 1)	Single Destroy
+	// localStorage.removeItem('name');
+
+	// 2)	All Destroy
+	localStorage.clear();
+
+
+
+</script>
+</body>
+</html>
+
+<!-- There are 3types of Storage-
+1)	Local Storage - will stay until we clear it
+2)	Session Storage - will disappear when close browser
+3)	Cookie -->
+
+<!-- 3LS/4LS -->
+<!-- 9LS WDFxxxx -->
